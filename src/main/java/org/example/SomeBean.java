@@ -11,7 +11,7 @@ public class SomeBean {
     public SomeBean() {}
 
     /**
-     * A method that calls interface methods from fields with annotations.
+     * Метод вызывающий методы из полей полученных в анотации.
      */
     public void go(){
         someField.doSome();
